@@ -47,13 +47,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>com.microsoft.azure</groupId>
 				<artifactId>azure-spring-cloud-maven-plugin</artifactId>
 				<version>1.3.0</version>
 				<configuration>
 					<subscriptionId>a46ab77b-5890-49ad-964f-6e60e053908a</subscriptionId>
-					<!-- <clusterName>cloud-straumann</clusterName> -->
+					&lt;!&ndash; <clusterName>cloud-straumann</clusterName> &ndash;&gt;
 					<appName>cloud-apim-service</appName>
 					<isPublic>true</isPublic>
 					<deployment>
@@ -74,7 +74,7 @@
 						</resources>
 					</deployment>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 
