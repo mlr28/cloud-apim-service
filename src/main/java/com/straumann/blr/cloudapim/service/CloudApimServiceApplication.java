@@ -15,7 +15,7 @@ public class CloudApimServiceApplication {
         SpringApplication.run(CloudApimServiceApplication.class, args);
     }
 
-    @Value("service.name")
+    @Value("${service.name}")
     private String serviceName;
 
     @GetMapping("/getApi")
